@@ -5,6 +5,7 @@ brew "flyctl"
 brew "gh"
 brew "lazygit"
 brew "mailsy"
+brew "mas"
 brew "pdm"
 brew "powerlevel10k"
 brew "tree"
@@ -29,6 +30,10 @@ cask "swiftformat-for-xcode"
 cask "transmission"
 cask "whatsapp"
 cask "xcodes"
+mas "AdBlock Pro", id: 1018301773
+mas "Little Snitch Mini", id: 1629008763
+mas "Snippie", id: 6445966164
+mas "WireGuard", id: 1451685025
 vscode "dracula-theme.theme-dracula"
 vscode "github.copilot"
 vscode "github.copilot-chat"
