@@ -42,10 +42,10 @@ alias bubu="brew update; brew upgrade; brew cleanup; brew doctor"
 # Environment Variables
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="/Users/yush/Documents/bin:$PATH"
+export PATH="~/Documents/bin:$PATH"
 
 # Bun Completions
-[ -s "/Users/yush/.bun/_bun" ] && source "/Users/yush/.bun/_bun"
+[ -s "~/.bun/_bun" ] && source "~/.bun/_bun"
 
 # Function Definitions
 zshare() {
